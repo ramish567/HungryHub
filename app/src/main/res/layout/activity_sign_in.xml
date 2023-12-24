@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn_Activity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:contentDescription="@string/todo"
+            android:padding="10dp"
+            app:srcCompat="@drawable/food" />
+
+        <TextView
+            android:id="@+id/cafehouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/cafe_house"
+            android:textColor="@color/startcolorgradient"
+            android:textColorHint="#F8E6DFDF"
+            android:textSize="60sp"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@color/cardview_light_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="patelramish07@gmail.com"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/cardview_light_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/Xnr567"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/sign_in"
+            android:textColor="#F3EDED"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/or_with"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@color/fbcolor"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/facebook"
+                android:textColor="#F4F3F3"
+                app:drawableLeftCompat="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="#FF5722"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/google"
+                android:textColor="#F3EBEB"
+                app:drawableStartCompat="@drawable/googleplus"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/want_to_create_account"
+            android:textColor="#101010"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>

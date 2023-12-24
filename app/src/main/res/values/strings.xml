@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HungryHub</string>
+    <string name="todo">TODO</string>
+    <string name="cafe_house">Cafe House</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="skip">skip</string>
+    <string name="patelramish07_gmail_com">patelramish07@gmail.com</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_with">Or With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="want_to_create_account">Want To Create Account ?</string>
+    <string name="Xnr567">..........</string>
+    <string name="Register">Register</string>
+    <string name="Or_With">Or With</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Google">Google</string>
+    <string name="Already_Have_Accout_Login">Already Have Accout ? Login</string>
+    <string name="Upload_Image">upload Image</string>
+    <string name="_917624051033">+917624051033</string>
+    <string name="Patelramish07_Gmail_Com">patelramish07@gmail.com</string>
+    <string name="User_Name">User Name</string>
+    <string name="Reg">Register</string>
+    <string name="in">Login</string>
+    <string name="skp">Skip</string>
+</resources>
